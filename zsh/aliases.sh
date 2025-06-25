@@ -23,3 +23,4 @@ alias tmk='tmux kill-session -t '
 # git
 alias gs='git status'
 alias gl='git log --oneline'
+alias gw='git switch'
