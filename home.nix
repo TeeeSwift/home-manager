@@ -17,6 +17,8 @@ in
 	home.sessionPath = [ "$HOME/.local/bin" ];
 
 	home.packages = with pkgs; [
+    gnupg
+    sops
 		tree
     ripgrep
     fd
@@ -27,6 +29,7 @@ in
     # The core Rust toolchain
     rustc
     cargo
+
     # Optional but recommended tools
     clippy
     rustfmt
